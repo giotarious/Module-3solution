@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body { font-family:"Comic Sans Ms","Comic Sans",cursive;
+      font-size: 16px;
+      color: black;
+}
+
+.navbar-default {
+background-color:#999999;
+border: 2px solid black;
+
+}
+.container > .navbar-header {
+   background-color:#999999;
+   border: 2px solid black;
+}
+#header-nav .navbar-brand a {
+   margin-left:15px;
+   color:black;
+   font-size: 1.3sem;
+   font-weight: bold;
+  
+}
+
+#nav-list > li {
+    text-align: center;
+}
+
+div section {
+    margin: 10px;
+    padding: 10px;
+}
+
+div h3#OurMenu { 
+    font-weight:bold;
+}
+
+
+#sectionChicken,#sectionBeef,#sectionSushi {
+    background-color: #999999;
+}
+
+h4 {    font-weight:bold;
+        margin-bottom: 15px;
+        margin-top: 0px;
+
+}
+#text > h4 {
+    margin-bottom: 15px;
+}
+
+#header-nav .navbar-brand {
+    position: absolute;
+    left: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+
+
+#nav-list a span {
+  font-size: 2em;
+
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-size:17px;
+}
+#nav-list a:hover {
+  background: white;
+  border: 2px solid black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle,span.icon-bar:hover {
+    border-color: white;
+   
+}
+
+div section.p { text-align:center;
+}
